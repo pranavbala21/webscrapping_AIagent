@@ -80,44 +80,5 @@ Summary:
 This website provides information about Example, including its services and mission. It highlights key aspects of their offerings, aiming to cater to user needs effectively. Example emphasizes innovation and customer satisfaction as core values.
 ```
 
----
 
-## Customization
-
-### Adjust Summary Length
-
-Modify the `max_length` and `min_length` parameters in the script:
-
-```python
-summary = summarizer(content, max_length=150, min_length=100, do_sample=False)[0]['summary_text']
-```
-
-### Error Handling
-
-Add additional conditions to validate input or handle specific scenarios (e.g., rate limits, restricted access).
-
----
-
-## Limitations
-
-- The script relies on the structure of the web page. If the page lacks sufficient text content, the summary may not be meaningful.
-- Summarization length is approximate and may vary depending on the text.
-
----
-
-## License
-
-This project is open-source and licensed under the MIT License.
-
----
-
-## Contributions
-
-Feel free to fork this repository and submit pull requests. Suggestions and feedback are welcome!
-
----
-
-## Contact
-
-For questions or support, please contact [Your Name] at [Your Email Address].
 
